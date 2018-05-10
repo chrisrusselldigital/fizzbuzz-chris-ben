@@ -1,11 +1,6 @@
 def fizzbuzz(n)
-  if n == 3
-    return "fizz"
-  elsif n == 5
-    return "buzz"
-  elsif n == 7
-    return 7
-  else
-    return "fizzbuzz"
-  end
+  return "fizz" if n == 3
+  return "buzz" if n == 5
+  return 7 if n == 7
+  return "fizzbuzz"
 end
