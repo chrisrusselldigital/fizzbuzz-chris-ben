@@ -1,6 +1,9 @@
 def fizzbuzz(n)
 if n == 3
   return "fizz"
-else return "buzz"
+elsif n == 15
+  return "5"
+else
+  return "buzz"
 end
 end
